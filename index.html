@@ -1,0 +1,167 @@
+ <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+
+
+
+           $(function() {
+         
+
+                $(".toggle" ).on("click", function(){
+
+    
+    
+    
+    $(".item").addClass("active"); 
+     
+     $(".toggle").addClass("off");
+     $(".x").addClass("on");
+
+    })
+
+   
+   
+    });
+
+    $(function() {
+         
+
+         $(".x,.item" ).on("click", function(){
+
+
+
+$(".item").removeClass("active");
+    $(".toggle").removeClass("off"); 
+    $(".x").removeClass("on");
+
+
+
+
+})
+
+
+
+});
+
+
+
+        </script>
+        </head>
+        <body>
+          
+            <nav>
+                <ul class="menu">
+                    <div class="logocover">
+                <li class="logo"><a href="#"><img src="logo.png"></a></li></div>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#">Products</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#">Contact</a></li>
+                <li class="toggle"><span class="bar"></span></li>
+               <li class="x"><img src="x copy.png"></li>
+            </ul>
+            </nav>
+
+            <section id="home">
+         <div class="landingpage">       
+        <div class="frontimage">
+            <img src="front car.png">
+        </div>
+        <div class="geonet">
+          <h1>
+            GeoNet
+          </h1>
+          <h2>
+            System Integrated Fleet Management
+          </h2>
+        </div>
+        <div class="playstore">
+        <ul>
+          <a href="https://play.google.com/store/apps/details?id=com.octys.geonet"><li><p>Get our app </p><img src="playstore.png"> </li></a>
+          <a href="https://www.apple.com/app-store/"><li><p>Get our app</p><img src="apple.png"> </li></a>
+        </ul>
+      </div>
+      <div class="whyus">
+        <h1>Why US</h1>
+     <div class="provide">
+      <img src="gps.png">
+      <p>We provide state-of-the-art
+        vehicle tracking systems
+        and fuel monitoring systems.</p>
+     </div>
+<div class="phone">
+  <img src="1telephone.png">
+  <p>We have 24/7 helpdesk System
+    via telephone and email.
+    and we are highly skilled
+    in client communication.</p>
+</div>
+<div class="page">
+  <img src="1report.png">
+  <p>We Provide customers with
+    weekly/monthly report
+    <br>upon request.</p>
+</div>
+<div class="client">
+  <img src="1client.png">
+  <p>We provide full training support
+    for our clients.</p>
+</div>
+<div class="block">
+  <img src="1block.png">
+  <p>We strive To Eliminate Theft
+    and Waste To Reduce Fleet Labor
+    & Maintenance Costs.</p>
+</div>
+<div class="maintain">
+  <img src="1maintain.png">
+  <p>We provide maintenance
+    at any time and We are Flexible
+    to your needs.</p>
+</div>
+
+      </div>
+            </section>
+            <section id="Products">
+            
+         <div class="producttitle">
+         <h1>Our Products</h1>
+        </div>
+          <div class="containerr">
+             <div class="card" >
+              <a href="https://google.com" >  <img src="tracking devices.jpg"  >
+              <div class="intro">
+                <h1>Tracker</h1>
+                <p>Locate your vehicles online at any time and from any location.</p>
+              </div></a>
+            </div>
+          
+        
+               <div class="card">
+                <a href="https://google.com" ><img src="tracking devices.jpg" >
+              <div class="intro">
+                <h1>Fuel Monitoring</h1>
+                <p>Monitor your fuel consumption & remind you to maintainyour vehicles on time.</p>
+              </div></a>
+            </div>
+        
+
+            <div class="card">
+              <a href="https://google.com" >   <img src="tracking devices.jpg" >
+              <div class="intro">
+                <h1>Surveillance</h1>
+                <p>A security camera system that is an excellent tool for protection. and can work as deterrent and a recovery tool </p>
+              </div></a>
+            </div>
+
+          </div>
+         
+
+
+
+            </section>
+        </body>
+ </html>
