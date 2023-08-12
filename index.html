@@ -1,53 +1,7 @@
  <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>
-
-
-
-           $(function() {
-         
-
-                $(".toggle" ).on("click tap touchstart", function(){
-
-    
-    
-    
-    $(".item").addClass("active"); 
-     
-     $(".toggle").addClass("off");
-     $(".x").addClass("on");
-
-    })
-
-   
-   
-    });
-
-    $(function() {
-         
-
-         $(".x,.item" ).on("click click tap touchstart", function(){
-
-
-
-$(".item").removeClass("active");
-    $(".toggle").removeClass("off"); 
-    $(".x").removeClass("on");
-
-
-
-
-})
-
-
-
-});
-
-
-
-        </script>
+        
         </head>
         <body>
           
@@ -163,5 +117,53 @@ $(".item").removeClass("active");
 
 
             </section>
+
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>
+
+
+
+           $(function() {
+         
+
+                $(".toggle" ).on("click tap touchstart", function(){
+
+    
+    
+    
+    $(".item").addClass("active"); 
+     
+     $(".toggle").addClass("off");
+     $(".x").addClass("on");
+
+    })
+
+   
+   
+    });
+
+    $(function() {
+         
+
+         $(".x,.item" ).on("click click tap touchstart", function(){
+
+
+
+$(".item").removeClass("active");
+    $(".toggle").removeClass("off"); 
+    $(".x").removeClass("on");
+
+
+
+
+})
+
+
+
+});
+
+
+
+        </script>
         </body>
  </html>
