@@ -281,7 +281,7 @@ padding:17px 5px;
 }
 .producttitlee h1{
     text-align: center;
-    
+    padding-top: 50px;
     font-size: 50px;  
 }
 
@@ -334,6 +334,32 @@ padding:17px 5px;
    
   
      
+}
+.intro-up{
+    height: 130px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: -180px;
+    
+    background: rgb(27,27,27, .5);
+    color: #fff;
+ 
+   
+    transition: .5s;
+
+}
+.intro-upup{
+    height: 130px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: -200px;
+    
+    background: rgb(27,27,27, .5);
+    color: #fff;
+ 
+   
+    transition: .5s;
+
 }
 .card h1{
     margin: 0;
