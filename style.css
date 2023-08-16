@@ -96,12 +96,13 @@ padding:17px 5px;
 .item.active{
     
     z-index: 2;
-    font-size: 30px;
+    font-size: 40px;
     color: #a61446;
     display: block;
 }
 .item.active a{
     color: #a61446;
+    padding-bottom: 10px;
     transition: .5s;
 }
 
@@ -278,6 +279,11 @@ padding:17px 5px;
     padding-top: 100px;
     font-size: 50px;
 }
+.producttitlee h1{
+    text-align: center;
+    
+    font-size: 50px;  
+}
 
 /* product card */
 .containerr{
@@ -290,7 +296,7 @@ padding:17px 5px;
 .card a img{
     
  
-  height: 700px;width: 700px;
+  height: 700px;width: 706px;
   position: static;
  
 
@@ -318,12 +324,12 @@ padding:17px 5px;
     height: 130px;
     width: 500px;
     border-radius: 10px;
-    margin-top: -130px;
+    margin-top: -160px;
     
-    background-color: rgb(27,27,27, .5);
+    background: rgb(27,27,27, .5);
     color: #fff;
  
-    z-index: 1;
+   
     transition: .5s;
    
   
@@ -336,8 +342,10 @@ padding:17px 5px;
     font-size: 37px;
 }
 .card p{
+    font-size: 22px;
     padding-left: 10px;
     padding-top: 10px;
+    
     
 }
 .card:hover{
@@ -352,8 +360,9 @@ padding:17px 5px;
     
 }
 .card:hover .intro{
+    
     height: 130px;
-    margin-top: -130px;
+    margin-top: -160px;
     background: #a61446;
 }
 .card:hover p{
