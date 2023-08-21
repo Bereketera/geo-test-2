@@ -1,7 +1,10 @@
  <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
         </head>
         <body>
           
@@ -10,8 +13,8 @@
                     <div class="logocover">
                 <li class="logo"><a href="#"><img src="logo.png"></a></li></div>
                 <li class="item"><a href="#home">Home</a></li>
-                <li class="item"><a href="#">Products</a></li>
-                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#Products">Products</a></li>
+                <li class="item"><a href="#Services">Services</a></li>
                 <li class="item"><a href="#">About</a></li>
                 <li class="item"><a href="#">Contact</a></li>
                 <li class="toggle"><span class="bar"></span></li>
@@ -78,7 +81,9 @@
 </div>
 
       </div>
+     
             </section>
+            <div class="merge">
             <section id="Products">
             
          <div class="producttitle">
@@ -113,10 +118,10 @@
 
           </div>
 
+        </section>
 
 
-
-
+<section id="Services">
           <div class="producttitlee">
             <h1>Our Services</h1>
            </div>
@@ -139,7 +144,7 @@
              </div></a>
            </div>
        
-
+          <div class="last-card">
            <div class="card">
              <a href="https://google.com" >   <img src="fleet managment.jpg" >
              <div class="intro-up">
@@ -149,13 +154,83 @@
            </div>
 
          </div>
+         </div>
          
+        </section>
+      </div>
+        <section id="about">
 
+          <div class="slider-text">
+            <h1>Our Partners and Clients</h1>
+          </div>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div style="background: url(test.png);" class="swiper-slide"></div>
+              <div style="background: url(test.png);" class="swiper-slide"></div>
+              <div style="background: url(test.png);" class="swiper-slide"></div>
+              <div style="background: url(test.png);" class="swiper-slide"></div>
+              <div style="background: url(test.png);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              <div style="background: url(test.jpg);" class="swiper-slide"></div>
+               <div style="background: url(test.jpg);" class="swiper-slide"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
+      
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-            </section>
+<script>
+ const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  slidesPerView: 2,
+      spaceBetween: 10,
+      centeredSlides: true,
+  
+  autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+ 
+});
+</script>
+
         <script>
 
 
